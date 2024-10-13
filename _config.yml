@@ -1,3 +1,21 @@
+title: Raghuraman's Portfolio
+description: A portfolio and blog of Raghuraman's projects, pursuits, and interests.
+baseurl: "" 
+url: "https://nctzen0.github.io" 
+theme: minima
+permalink: pretty
+
+# Add links to your About and Blog sections in the header
+header_pages:
+  - index.html
+  - about.md
+  - _posts
+
+# Optional: Social media links
+social_links:
+  github: https://github.com/nctzen0
+  linkedin: https://www.linkedin.com/in/raghuraman1
+  Instagram: https://www.instagram.com/rxghu
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
