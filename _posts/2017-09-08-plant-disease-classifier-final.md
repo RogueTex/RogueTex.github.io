@@ -13,7 +13,7 @@ We’ll use **PyTorch** (a fancy deep learning library) to train the model and *
 
 ---
 
-### Tech We’re Using:
+## Tech We’re Using:
 
 - **PyTorch**: Because building neural networks from scratch is way too much work.
 - **Streamlit**: Makes it look like we actually know how to code a web app. (Spoiler: It’s super easy!)
@@ -22,7 +22,7 @@ We’ll use **PyTorch** (a fancy deep learning library) to train the model and *
 
 ---
 
-### What’s the Plan?
+## What’s the Plan?
 
 Here’s the super official breakdown:
 
