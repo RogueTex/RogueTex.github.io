@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <title>Raghuraman | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Raghuraman | Professional Portfolio</title>
 </head>
+
 <body>
 
   <!-- Hero Section -->
@@ -16,16 +18,38 @@
       Know More
     </a>
   </section>
-
-  <!-- About Me Section -->
-  <section id="about" class="py-20 bg-white text-center">
-    <div class="container mx-auto">
-      <h2 class="text-4xl font-bold mb-4">About Me</h2>
-      <p class="text-gray-600 text-lg mb-8">
-        All things Software. Passionate about uncovering statistical analytics from data solve real-world problems.
-      </p>
+  
+<!-- Expanded About Me Section -->
+<section id="about" class="py-20 bg-white">
+  <div class="container mx-auto flex flex-col md:flex-row items-center justify-center">
+    
+    <!-- Image -->
+    <div class="w-full md:w-1/3 mb-8 md:mb-0">
+      <img src="your-photo.jpg" alt="Your Name" class="rounded-full mx-auto w-64 h-64">
     </div>
-  </section>
+    
+    <!-- Bio and Interests -->
+    <div class="w-full md:w-2/3 text-center md:text-left">
+      <h2 class="text-4xl font-bold mb-4">About Me</h2>
+      <p class="text-lg text-gray-600 mb-4">
+        Hello! I'm Raghuraman, passionate software systems, Product development and love to transform data into insights. I specialize in business analytics, data visualization, and using data-driven strategies to solve real-world problems.
+      </p>
+      <p class="text-lg text-gray-600 mb-4">
+        When I'm not working with data, I enjoy exploring new technologies, dabbling with APIs and expanding my Duolingo Streak xD.
+      </p>
+
+      <!-- Links to Projects and CV -->
+      <div class="flex justify-center md:justify-start space-x-4 mt-4">
+        <a href="#projects" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg">
+          View My Projects
+        </a>
+        <a href="your-cv-link.pdf" class="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg">
+          Download CV
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Projects Section -->
   <section id="projects" class="py-20 bg-gray-100">
@@ -54,31 +78,26 @@
     </div>
   </section>
 
-  <!-- Skills Section -->
-  <section id="skills" class="py-20 bg-white text-center">
-    <div class="container mx-auto">
-      <h2 class="text-4xl font-bold mb-12">Skills</h2>
-      <div class="flex justify-center space-x-8">
-        <div class="text-center">
-          <i class="devicon-python-plain-wordmark colored text-6xl"></i>
-          <p class="mt-4 text-gray-700">Python</p>
-        </div>
-        <div class="text-center">
-          <i class="devicon-javascript-plain colored text-6xl"></i>
-          <p class="mt-4 text-gray-700">JavaScript</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-gray-900 text-white text-center">
-    <div class="container mx-auto">
-      <h2 class="text-4xl font-bold mb-12">Contact Me</h2>
-      <p>Email: <a href="mailto:raghuraman.subramanian1@gmail.com" class="text-blue-500">raghuraman.subramanian1@Ggmail.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/raghuraman1" class="text-blue-500">linkedin.com/in/raghuraman1</a></p>
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-gray-900 text-white text-center">
+  <div class="container mx-auto">
+    <h2 class="text-4xl font-bold mb-12">Contact Me</h2>
+    <div class="flex justify-center space-x-6">
+      <a href="mailto:raghuraman.subramanian1@gmail.com" class="text-white hover:text-blue-500 text-4xl">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://github.com/nctzen0" class="text-white hover:text-blue-500 text-4xl">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/raghuraman1" class="text-white hover:text-blue-500 text-4xl">
+        <i class="fab fa-linkedin"></i>
+      </a>
     </div>
-  </section>
+  </div>
+</section>
+
 
 </body>
 </html>
