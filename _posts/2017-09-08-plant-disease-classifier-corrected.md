@@ -69,7 +69,7 @@ def preprocess_image(image):
     input_tensor = preprocess(image)
     input_tensor = input_tensor.unsqueeze(0)
     return input_tensor
-
+```
 Why?
 
 Because the model is picky. It wants grayscale images in a specific size and format. Think of it like asking for a perfect cup of coffee—no foam, extra hot.
@@ -86,7 +86,7 @@ def load_model(path, num_classes):
     model.load_state_dict(torch.load(path, map_location=device))
     model.eval()  
     return model
-
+```
 4. Bringing It All Together in Streamlit
 
 Finally, we get to the fun part—making the app. This is where Streamlit shines. We’re gonna build an interface that lets you upload an image and click a button like a pro.
