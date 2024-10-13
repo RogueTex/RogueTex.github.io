@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5F5F5; /* Neutral background */
+  color: #333;
+  margin: 0;
+}
+
+/* Main container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5 {
+  color: #007BFF; /* Primary blue color */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007BFF; /* Primary blue */
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #0056b3;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+/* Section padding */
+section {
+  padding: 60px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #FF5733; /* Secondary orange */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e74c3c;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  margin-bottom: 20px;
+}
+
+.card h5 {
+  color: #007BFF; /* Primary blue */
+}
+
+/* Carousel Styling */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #FF5733;
+  border-radius: 50%;
+  padding: 10px;
+}
+
