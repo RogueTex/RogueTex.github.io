@@ -1,7 +1,8 @@
 
 ---
+layout:post
 title: "Ace the Stats: Unpacking Serve Tactics in Tennis Using Probability"
-date: 2023-5-13
+date: 2023-05-13
 categories: [Tennis, Statistics, Fun]
 tags: [Probability, Bayesian Updating, Sports Analytics]
 ---
