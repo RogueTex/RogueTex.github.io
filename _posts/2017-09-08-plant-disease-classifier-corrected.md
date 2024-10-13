@@ -54,7 +54,7 @@ Translation:
     Fully Connected Layers: These guys are the final judges, deciding if your plant is A-OK or having a crisis.
     Dropout: Drops random neurons like it’s hot—keeps the model from getting too attached to any one pattern.
 
-2. Prepping the Leaf Selfie
+## 2. Prepping the Leaf Selfie
 
 Plants don’t know how to take perfect selfies, so we have to help out. We’ll resize the image, turn it grayscale (because plants are colorblind anyway), and transform it into a format our neural network actually understands.
 
@@ -73,7 +73,8 @@ def preprocess_image(image):
 Why?
 
 Because the model is picky. It wants grayscale images in a specific size and format. Think of it like asking for a perfect cup of coffee—no foam, extra hot.
-3. Loading the Plant Whisperer Model
+
+## 3. Loading the Plant Whisperer Model
 
 Our neural network can’t read your mind (yet), so we need to load a pre-trained model file. And if you’re lucky enough to have a GPU, your model will run much faster. If not, no worries—CPU works too (just don’t expect lightning speed).
 
@@ -87,7 +88,7 @@ def load_model(path, num_classes):
     model.eval()  
     return model
 ```
-4. Bringing It All Together in Streamlit
+## 4. Bringing It All Together in Streamlit
 
 Finally, we get to the fun part—making the app. This is where Streamlit shines. We’re gonna build an interface that lets you upload an image and click a button like a pro.
 
@@ -128,10 +129,9 @@ What’s Happening Here?
     Image Display: We show you the uploaded image because, well, it’s nice to see what you just uploaded!
     Predict Button: Click it, and our model will tell you what’s going on with your plant. It's like having a plant doctor on call.
 
-Wrapping It Up
+## Wrapping It Up
 
 And there you have it—a plant disease classifier that knows its stuff. We’ve built a neural network, set up image preprocessing, and wrapped it all up in a nice Streamlit interface.
 
 Want to add more features? Go for it! Turn it into a mobile app or even add a “Plant Encouragement” feature that says something nice if your plant’s struggling. (Because who doesn’t love a little positive reinforcement?)
-
 Happy coding, and may your plants never get the “Cedar apple rust”!
