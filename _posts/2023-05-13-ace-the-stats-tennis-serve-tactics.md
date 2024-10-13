@@ -1,11 +1,24 @@
-
 ---
-layout:post
+layout: post
 title: "Ace the Stats: Unpacking Serve Tactics in Tennis Using Probability"
 date: 2023-05-13
 categories: [Tennis, Statistics, Fun]
 tags: [Probability, Bayesian Updating, Sports Analytics]
+math: true
 ---
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 ## Ace the Stats: Unpacking Serve Tactics in Tennis Using Probability
 
@@ -17,14 +30,14 @@ First things first, what’s happening in a serve isn’t just guesswork – it�
 
 In fact, tennis serve decisions can be boiled down to a super scientific formula:
 
-\[
-P(	ext{Ace}) = rac{S_{	ext{Speed}} 	imes 	ext{Angle}}{D_{	ext{Opponent Reaction Time}}}
-\]
+$$
+P(\text{Ace}) = \frac{S_{\text{Speed}} \times \text{Angle}}{D_{\text{Opponent Reaction Time}}}
+$$
 
 Where:
-- \(S_{	ext{Speed}}\) = Serve speed, measured in mph
-- \(	ext{Angle}\) = How much the serve bends space and time (roughly)
-- \(D_{	ext{Opponent Reaction Time}}\) = How quickly your opponent can move (varies by amount of caffeine consumed pre-match)
+- \(S_{\text{Speed}}\) = Serve speed, measured in mph
+- \(\text{Angle}\) = How much the serve bends space and time (roughly)
+- \(D_{\text{Opponent Reaction Time}}\) = How quickly your opponent can move (varies by amount of caffeine consumed pre-match)
 
 Obviously, higher serve speed and more extreme angles increase your chances of an ace, while having a slow-moving opponent (i.e., someone who’s already run 30 miles during the match) helps as well.
 
@@ -34,13 +47,13 @@ Not quite, but they do act like it! Players are constantly making micro-decision
 
 Let’s break it down with another overly complex, yet completely fake, formula:
 
-\[
-E(	ext{Win Serve}) = \sum_{i=1}^{3} P(	ext{Tactic}_i) 	imes 	ext{Reward}_i
-\]
+$$
+E(\text{Win Serve}) = \sum_{i=1}^{3} P(\text{Tactic}_i) \times \text{Reward}_i
+$$
 
 Where:
-- \(P(	ext{Tactic}_i)\) = Probability of choosing a particular serve tactic (wide, body, or down the T)
-- \(	ext{Reward}_i\) = Expected reward (points, glory, Instagram followers)
+- \(P(\text{Tactic}_i)\) = Probability of choosing a particular serve tactic (wide, body, or down the T)
+- \(\text{Reward}_i\) = Expected reward (points, glory, Instagram followers)
 
 The key is to maximize the expected value by picking serves that give you the highest chance of success based on your opponent’s weaknesses and the match situation. More EV, more W's – simple math, right?
 
@@ -50,9 +63,9 @@ In tennis, as in life, players constantly adapt. Enter Bayesian probability! In 
 
 The formula for Bayesian updating in tennis (aka "Let’s Try That Wide Serve Again") can be written as:
 
-\[
-P(	ext{Serve}_{	ext{Wide}} | 	ext{Success}) = rac{P(	ext{Success}|	ext{Serve}_{	ext{Wide}}) 	imes P(	ext{Serve}_{	ext{Wide}})}{P(	ext{Success})}
-\]
+$$
+P(\text{Serve}_{\text{Wide}} | \text{Success}) = \frac{P(\text{Success}|\text{Serve}_{\text{Wide}}) \times P(\text{Serve}_{\text{Wide}})}{P(\text{Success})}
+$$
 
 Or, in normal human speak: if that wide serve keeps acing your opponent, you’ll keep doing it until they finally figure out how to return it (or cry).
 
@@ -67,9 +80,9 @@ Recent analyses show interesting trends, like:
 
 For those who want to simulate their own tennis matches, here’s an advanced predictive model formula to calculate the likelihood of serve success:
 
-\[
-S_{	ext{Success}} = rac{	ext{Arm Strength}^2 	imes 	ext{Confidence} - 	ext{Opponent Read}}{	ext{Humidity Level}}
-\]
+$$
+S_{\text{Success}} = \frac{\text{Arm Strength}^2 \times \text{Confidence} - \text{Opponent Read}}{\text{Humidity Level}}
+$$
 
 Because nothing says “precision” like dividing by humidity levels – those things totally impact tennis balls, right?
 
