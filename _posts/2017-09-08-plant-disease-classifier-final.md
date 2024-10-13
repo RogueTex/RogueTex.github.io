@@ -132,7 +132,6 @@ What’s Happening Here?
 
 ## Wrapping It Up
 
-And there you have it—a plant disease classifier that knows its stuff. We’ve built a neural network, set up image preprocessing, and wrapped it all up in a nice Streamlit interface.
-
-Want to add more features? Go for it! Turn it into a mobile app or even add a “Plant Encouragement” feature that says something nice if your plant’s struggling. (Because who doesn’t love a little positive reinforcement?)
-Happy coding, and may your plants never get the “Cedar apple rust”!
+And there you have it—a plant disease classifier that knows its stuff. 
+We’ve built a neural network, set up image preprocessing, and wrapped it all up in a nice Streamlit interface.
+Happy coding 👨‍💻!
