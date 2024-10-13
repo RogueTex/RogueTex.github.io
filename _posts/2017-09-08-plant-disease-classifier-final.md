@@ -6,6 +6,7 @@ categories: blog
 ---
 
 ## Introduction
+This project was part of my first semester project at **NIT Calicut** (2017-18), under the guidance of **Prof. Baiju G Nair**, in collaboration with the **CSE Department**. The aim of the project was to explore the application of machine learning in plant disease classification, focusing on building a user-friendly application that could help users diagnose plant issues with ease.
 
 Ever stared at your plants and thought, *"What’s wrong with you this time?"*—only to wish they could just tell you? Well, today, we’re building an app that does (kinda) just that! In this tutorial, we’ll create a plant disease classifier that can identify whether your plant is rocking that healthy glow or is struggling with something that sounds like it came straight out of a sci-fi movie.
 
