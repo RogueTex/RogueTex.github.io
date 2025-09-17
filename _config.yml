@@ -8,8 +8,8 @@ permalink: pretty
 # Add links to your About and Blog sections in the header
 header_pages:
   - index.html
-  - about.md
   - blog.md # Link to the blog page instead of _posts
+  - resume.html
 
 # Social media links
 social_links:
