@@ -4,6 +4,15 @@ title: "Blog"
 permalink: /blog
 ---
 
+<nav style="width:100%; border-bottom: 1px solid #e5e7eb; background:#fff;">
+  <div style="max-width: 1000px; margin: 0 auto; padding: 0.9rem 1rem; display:flex; align-items:center; justify-content: space-between;">
+    <a href="/" style="font-weight:600; color:#111827; text-decoration:none;">Home</a>
+    <div style="display:flex; gap:1rem;">
+      <a href="/resume.html" style="color:#374151; text-decoration:none;">CV</a>
+    </div>
+  </div>
+</nav>
+
 <div style="max-width: 900px; margin: 0 auto; padding: 2rem 1rem;">
   <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem;">Projects & Notes</h1>
   <p style="color: #4b5563; margin-bottom: 2rem;">
@@ -83,3 +92,11 @@ permalink: /blog
 
   </div>
 </div>
+
+<footer style="border-top:1px solid #e5e7eb; margin-top: 3rem; padding: 1rem 0;">
+  <div style="max-width: 900px; margin: 0 auto; padding: 0 1rem; display:flex; justify-content:center; gap:1rem;">
+    <a href="mailto:raghu.s@utexas.edu" style="color:#374151; text-decoration:none;">Email</a>
+    <a href="https://github.com/RogueTex" style="color:#374151; text-decoration:none;">GitHub</a>
+    <a href="https://linkedin.com/in/raghuraman1" style="color:#374151; text-decoration:none;">LinkedIn</a>
+  </div>
+</footer>
