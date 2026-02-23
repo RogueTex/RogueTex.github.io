@@ -59,7 +59,13 @@ permalink: /blog
     </section>
 
     <footer class="footer">
-      <span>Writing archive updated with each new Medium post.</span>
+      <div class="footer-links">
+        <a href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Medium</a>
+        <a href="/resume.html" target="_blank" rel="noopener noreferrer">CV</a>
+      </div>
+      <span class="footer-note">Writing archive updated with each new Medium post.</span>
     </footer>
   </main>
 </body>
