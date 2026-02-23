@@ -21,7 +21,6 @@ permalink: /blog
       <a class="brand" href="/">Raghu</a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="/">Home</a>
-        <a href="/about/">About</a>
         <a href="/resume.html">CV</a>
         <a href="mailto:raghu.s@utexas.edu">Contact</a>
       </nav>
