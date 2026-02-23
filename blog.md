@@ -43,9 +43,16 @@ permalink: /blog
           <h3>Copy-Pasting Your Prompt Twice Can 5x Your Accuracy (And There's a Google Paper About It)</h3>
           <p>A practical breakdown of why duplicate prompting can improve outputs, plus the research context behind it.</p>
           <div class="link-row">
-            <a href="/copy-pasting-prompt-twice.html">Read on site</a>
             <a href="https://medium.com/p/b1f90c3699bd?postPublishedType=initial" target="_blank" rel="noopener noreferrer">Open on Medium</a>
           </div>
+          <iframe
+            class="embed-frame"
+            title="Medium article embed"
+            src="https://medium.com/p/b1f90c3699bd?postPublishedType=initial"
+            width="100%"
+            height="800"
+            loading="lazy"
+          ></iframe>
         </article>
       </div>
       <p class="contact-line">More posts: <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">@RogueTex</a></p>
