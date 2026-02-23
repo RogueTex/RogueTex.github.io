@@ -1,0 +1,281 @@
+:root {
+  --bg: #f8f8f6;
+  --surface: #ffffff;
+  --text: #111218;
+  --muted: #5d6270;
+  --line: #d9dbe2;
+  --accent: #1f4acc;
+  --accent-soft: #e8edff;
+  --max-width: 920px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: radial-gradient(circle at top right, #ffffff 0%, var(--bg) 45%);
+  line-height: 1.65;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.shell {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+.top-nav {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--line);
+  background: rgba(248, 248, 246, 0.92);
+  backdrop-filter: blur(6px);
+  z-index: 20;
+}
+
+.nav-inner {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  text-decoration: none;
+  color: var(--text);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.25rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #252936;
+}
+
+main {
+  padding: 3rem 0 4rem;
+}
+
+section {
+  margin-top: 3.2rem;
+}
+
+section h2 {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.7rem;
+  margin: 0 0 0.5rem;
+}
+
+.hero {
+  margin-top: 1.2rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px var(--line);
+}
+
+.eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.2rem;
+}
+
+h1 {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  line-height: 1.15;
+  margin: 0 0 0.5rem;
+}
+
+.lead {
+  font-size: 1.08rem;
+  color: #242734;
+  max-width: 66ch;
+  margin: 0.5rem 0 0;
+}
+
+.meta-row {
+  margin-top: 0.95rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.cta-row {
+  margin-top: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.5rem 0.95rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: var(--text);
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: #2a2e3c;
+}
+
+.btn.secondary {
+  background: var(--surface);
+  color: var(--text);
+  border-color: var(--line);
+}
+
+.btn.secondary:hover {
+  background: #f2f3f7;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 0.45rem;
+  margin-bottom: 0.4rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: #2e3f86;
+  font-size: 0.78rem;
+}
+
+.card p {
+  margin: 0.45rem 0 0;
+  color: #2f3442;
+  font-size: 0.95rem;
+}
+
+.metric {
+  margin-top: 0.65rem;
+  font-size: 0.86rem;
+  color: #3b4358;
+  background: #f3f5fb;
+  border: 1px solid #e3e6f0;
+  border-radius: 8px;
+  padding: 0.35rem 0.55rem;
+}
+
+.link-row {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.link-row a {
+  font-size: 0.9rem;
+}
+
+.writing-box {
+  padding: 1rem 1.1rem;
+  border: 1px dashed #bfc4d2;
+  border-radius: 12px;
+  background: #fafbff;
+}
+
+.contact-line {
+  margin-top: 0.4rem;
+  color: #2f3442;
+}
+
+.footer {
+  padding: 2rem 0 2.8rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--line);
+  margin-top: 3rem;
+}
+
+@media (max-width: 860px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-inner {
+    min-height: 58px;
+  }
+
+  .nav-links {
+    gap: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .avatar {
+    width: 88px;
+    height: 88px;
+  }
+}

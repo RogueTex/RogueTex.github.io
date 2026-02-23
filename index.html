@@ -3,70 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <title>Raghuraman | Professional Portfolio</title>
+  <meta name="description" content="Raghuraman - personal site for Full-Stack Developer and Solutions Engineer roles.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
+  <title>Raghu | FDE / Solutions Portfolio</title>
 </head>
-
 <body>
-
-  <!-- Simple Nav -->
-  <nav class="w-full bg-white shadow-sm">
-    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="/" class="text-xl font-semibold">Home</a>
-      <div class="space-x-6">
-        <a href="/blog" class="text-gray-700 hover:text-blue-600">Blog</a>
-        <a href="/resume.html" class="text-gray-700 hover:text-blue-600">Resume</a>
-      </div>
+  <header class="top-nav">
+    <div class="shell nav-inner">
+      <a class="brand" href="/">Raghu</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="/about/">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+        <a href="/resume.html">CV</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-    <section class="py-20 bg-white">
-    <div class="container mx-auto max-w-4xl px-4">
-      <h1 class="text-5xl font-bold mb-8 text-center">Hi, I'm Raghu!</h1>
-      <div class="flex flex-col md:flex-row md:items-start md:space-x-8">
-        <div class="flex-shrink-0 mb-6 md:mb-0 mx-auto md:mx-0 text-center">
-          <img src="https://media.licdn.com/dms/image/v2/D5603AQHLqWZcivovGw/profile-displayphoto-crop_800_800/B56Zggt5y8G4AM-/0/1752895562912?e=1761177600&v=beta&t=AKRjj2Q0bUU29_DJIDhYWw56gP53jc8WpTheh91nbxw" alt="Raghu profile" class="w-28 h-28 rounded-full object-cover mx-auto">
-          <div class="mt-4 flex items-center justify-center space-x-4">
-            <a href="mailto:raghu.s@utexas.edu" class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-4 py-2 rounded">Email me</a>
-            <a href="https://github.com/RogueTex" class="text-gray-700 hover:text-blue-600 text-2xl" aria-label="GitHub">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://linkedin.com/in/raghuraman1" class="text-gray-700 hover:text-blue-600 text-2xl" aria-label="LinkedIn">
-              <i class="fab fa-linkedin"></i>
-            </a>
+  <main class="shell">
+    <section class="hero" id="home">
+      <div class="hero-grid">
+        <img class="avatar" src="/assets/Assets_imageProfile.jpeg" alt="Raghuraman profile photo">
+        <div>
+          <p class="eyebrow">Full-Stack + Solutions Engineering</p>
+          <h1>Building practical AI products for customer-facing problems.</h1>
+          <p class="lead">
+            I am Raghuraman, a master's student at UT Austin graduating in <strong>May 2026</strong>, currently looking for full-time
+            <strong>FDE / Solutions Engineer</strong> opportunities. I enjoy translating messy business problems into usable products and
+            integrations that teams can ship and maintain.
+          </p>
+          <p class="meta-row">Based in Austin, TX • Open to U.S. full-time roles starting summer 2026</p>
+          <div class="cta-row">
+            <a class="btn primary" href="/resume.html" target="_blank" rel="noopener noreferrer">View CV</a>
+            <a class="btn secondary" href="https://drive.google.com/uc?export=download&id=1lZdRKwGW2P2to6T4s_TB8cQtoW_EiE8Z" target="_blank" rel="noopener noreferrer">Download CV</a>
+            <a class="btn secondary" href="mailto:raghu.s@utexas.edu">Email Me</a>
           </div>
         </div>
-        <div class="text-lg text-gray-800 leading-8">
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <p class="contact-line">A few recent builds with direct user and product impact.</p>
+      <div class="project-grid">
+        <article class="card">
+          <h3>Content Generator</h3>
+          <span class="tag">Roo Hackathon Finalist</span>
           <p>
-I am currently Master's student at the <a href="https://www.mccombs.utexas.edu/" class="text-blue-600 hover:text-blue-800 underline">University of Texas at Austin</a> in the 
-<a href="https://www.mccombs.utexas.edu/graduate/ms-business-analytics/" class="text-blue-600 hover:text-blue-800 underline">Department of Information, Risk, and Operations Management (IROM)</a>, graduating in Spring 2026.
-My major interests are in data-driven decision making and optimization for complex, real-world problems.
-<br><br>
-Prior to grad school, I worked at <a href="https://www.sprinklr.com/" class="text-blue-600 hover:text-blue-800 underline">Sprinklr (NYSE:CXM)</a> in Bangalore in their deployed engineering team. 
-
-During my undergrad years at NIT, I was also in 
-<a href="https://www.researchgate.net/publication/359059585_Fermenter_Design" class="text-blue-600 hover:text-blue-800 underline">Dr. Baiju G. Nair's research group</a> within the Materials Science &amp; Engineering department.
-<br><br>
-
-I'm looking for full-time opportunities starting Summer 2026 in Quant \ Data roles.
-Longer term, I'm interested in potentially pursuing research in decision sciences and operations research.
-<br><br>
-Outside of work, I spend my time quizzing, playing electric guitar, and experimenting with sound-based AI projects!
-
-Additionally, I led Sprinklr's <a href="https://www.linkedin.com/posts/sprinklr_sprinklrlife-aapiheritagemonth-activity-7201976406619078656-v10z/" class="text-blue-600 hover:text-blue-800 underline">Pan Asian Network employee resource group</a>, organizing well-being initiatives, cultural events, and growing membership across global offices.
-</p>
-          <p class="mt-6 text-base">
-            Check out my <a href="/blog" class="text-blue-600 hover:underline">relevant projects and blog</a>, and my <a href="/resume.html" class="text-blue-600 hover:underline">CV</a>.
+            Built a production-style content workflow that generates blogs, newsletters, and ad copy with controllable tone and length, reducing manual drafting time for content teams.
           </p>
-        </div>
-    </div>
-  </section>
+          <p class="metric">Impact: Faster draft creation and repeatable content formatting for multi-channel publishing.</p>
+          <div class="link-row">
+            <a href="https://roguetex.github.io/ContentGenerator_RooHackathon/" target="_blank" rel="noopener noreferrer">Live demo</a>
+            <a href="https://github.com/RogueTex/ContentGenerator_RooHackathon" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
 
+        <article class="card">
+          <h3>Finance Receipt AI Agent</h3>
+          <span class="tag">Workflow Automation</span>
+          <p>
+            End-to-end receipt pipeline using OCR, LayoutLMv3 extraction, anomaly detection, and LangGraph routing to automate approve/review decisions; reported 100% classification and anomaly detection accuracy on a 100-sample benchmark.
+          </p>
+          <p class="metric">Impact: 100% classification and anomaly detection accuracy on the published 100-sample benchmark.</p>
+          <div class="link-row">
+            <a href="https://github.com/RogueTex/StreamingDataforModelTraining" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://colab.research.google.com/github/RogueTex/StreamingDataforModelTraining/blob/main/NewVerPynbAgent.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
+          </div>
+        </article>
 
+        <article class="card">
+          <h3>Perplexity-Style Search Clone</h3>
+          <span class="tag">Retrieval + Summarization</span>
+          <p>
+            Implemented a lightweight answer engine with live retrieval and concise summarization in a React + FastAPI stack, focused on fast response quality for user queries.
+          </p>
+          <p class="metric">Impact: Reduced research friction by returning concise, citation-ready summaries in a single flow.</p>
+          <div class="link-row">
+            <a href="https://roguetex.github.io/InsightsLetter/" target="_blank" rel="noopener noreferrer">Live demo</a>
+            <a href="https://github.com/RogueTex/AdvancedInsights" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
 
-  <!-- Contact Section -->
+    <section id="writing">
+      <h2>Writing</h2>
+      <div class="writing-box">
+        <p class="contact-line">
+          I am kickstarting technical writing on Medium. Posts will cover applied AI builds, product engineering lessons, and solution architecture notes.
+        </p>
+        <p class="contact-line">
+          Medium: <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">@RogueTex</a> (coming soon)
+        </p>
+      </div>
+    </section>
 
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="contact-line">Best way to reach me: <a href="mailto:raghu.s@utexas.edu">raghu.s@utexas.edu</a></p>
+      <p class="contact-line">
+        Also on <a href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer">GitHub</a>
+        and <a href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+      </p>
+    </section>
 
+    <footer class="footer">
+      <span>Raghuraman • Last updated February 2026</span>
+    </footer>
+  </main>
 </body>
 </html>

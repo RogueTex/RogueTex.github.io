@@ -1,5 +1,5 @@
-title: Raghuraman's Portfolio
-description: A portfolio and blog of Raghuraman's projects, pursuits, and interests.
+title: Raghuraman | Portfolio
+description: FDE and Solutions Engineering portfolio for Raghuraman.
 baseurl: "" # Keep this empty unless your site is in a subpath
 url: "https://RogueTex.github.io"
 theme: minima
@@ -13,7 +13,5 @@ header_pages:
 
 # Social media links
 social_links:
-  github: https://github.com/nctzen0
+  github: https://github.com/RogueTex
   linkedin: https://www.linkedin.com/in/raghuraman1
-  instagram: https://www.instagram.com/rxghu
-
