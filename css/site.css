@@ -194,6 +194,26 @@ h1 {
   font-size: 0.95rem;
 }
 
+.embed-code {
+  margin: 0.35rem 0 0;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fcfcfd;
+  color: #242a37;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+.embed-frame {
+  margin-top: 0.2rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+}
+
 .footer {
   padding: 1.4rem 0 1.7rem;
   color: var(--muted);
