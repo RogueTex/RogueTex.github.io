@@ -30,19 +30,29 @@ permalink: /blog
   <main class="shell">
     <section class="hero">
       <p class="eyebrow">Writing</p>
-      <h1>Medium posts are launching soon.</h1>
+      <h1>Recent writing on agentic workflows and full-stack builds.</h1>
       <p class="lead">
-        I am putting together short, practical notes on AI product builds, full-stack implementation details,
-        and solution engineering tradeoffs from my projects.
+        Notes on practical AI systems, prompt design, and solution engineering tradeoffs from real projects.
       </p>
-      <div class="cta-row">
-        <a class="btn primary" href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Visit Medium</a>
-        <a class="btn secondary" href="/">Back to Home</a>
+    </section>
+
+    <section>
+      <h2>Published</h2>
+      <div class="project-list">
+        <article class="project-item">
+          <h3>Copy-Pasting Your Prompt Twice Can 5x Your Accuracy (And There's a Google Paper About It)</h3>
+          <p>A practical breakdown of why duplicate prompting can improve outputs, plus the research context behind it.</p>
+          <div class="link-row">
+            <a href="/copy-pasting-prompt-twice.html">Read on site</a>
+            <a href="https://medium.com/p/b1f90c3699bd?postPublishedType=initial" target="_blank" rel="noopener noreferrer">Open on Medium</a>
+          </div>
+        </article>
       </div>
+      <p class="contact-line">More posts: <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">@RogueTex</a></p>
     </section>
 
     <footer class="footer">
-      <span>More posts coming soon.</span>
+      <span>Writing archive updated with each new Medium post.</span>
     </footer>
   </main>
 </body>
