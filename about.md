@@ -32,45 +32,44 @@ permalink: /about/
   <main class="shell">
     <section class="hero">
       <p class="eyebrow">About</p>
-      <h1>I build practical AI systems for real customer workflows.</h1>
+      <h1>MS, Class of 2026 • UT Austin</h1>
       <p class="lead">
-        I'm Raghuraman (Raghu), a master's student at UT Austin graduating in <strong>May 2026</strong>. I enjoy turning
-        open-ended product goals into AI-enabled systems that are measurable, maintainable, and easy for teams to adopt.
+        I'm Raghuraman (Raghu), graduating in <strong>May 2026</strong> from UT Austin. I previously worked on conversational AI and CCaaS TTS workflows at Sprinklr as a Forward Deployed Engineer, and was their first university hire.
       </p>
     </section>
 
     <section>
-      <h2>What I bring</h2>
+      <h2>What I Work On</h2>
       <p class="contact-line">
-        I work comfortably across model behavior, orchestration APIs, and product UX. Recent projects span
-        content-generation agents, document-processing pipelines, and retrieval-based answer systems.
+        I focus on product-facing AI systems and agentic workflows, especially where model behavior, orchestration APIs, and user adoption need to come together in production-facing experiences.
       </p>
       <p class="contact-line">
-        My approach is outcome-first: define quality signals early, ship quickly, and harden the parts that matter for reliability.
+        My project work includes content-generation agents, document-processing and validation pipelines, and retrieval-based answer systems.
       </p>
     </section>
 
     <section>
-      <h2>How I build</h2>
+      <h2>Coursework & Roles</h2>
       <p class="contact-line">
-        I favor clear architecture and fast feedback loops: prompt/eval iteration, retrieval grounding, and human-in-the-loop controls where trust matters.
+        Coursework focus: Optimization and Generative Models.
       </p>
       <p class="contact-line">
-        Tools and patterns I frequently use: React and FastAPI interfaces, API orchestration, OCR/document pipelines, and agent routing flows.
+        Open to full-time AI Engineer, Forward Deployed Engineer, and Solutions Engineer roles.
+      </p>
+    </section>
+
+    <section>
+      <h2>Community</h2>
+      <p class="contact-line">
+        I am a community builder and have served as a campus ambassador for Perplexity and OpenAI Codex.
+      </p>
+      <p class="contact-line">
+        At Sprinklr, I was a founding member of the
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7201933081102974977/" target="_blank" rel="noopener noreferrer">We Care Pan-Asian Network</a>.
       </p>
     </section>
 
     <section id="contact">
-      <h2>Current Focus</h2>
-      <p class="contact-line">
-        Graduating in May 2026 and actively looking for full-time AI Engineer and Forward Deployed Engineering opportunities starting Summer 2026.
-      </p>
-      <p class="contact-line">
-        I am especially interested in teams building applied AI products where technical depth and customer outcomes are equally important.
-      </p>
-    </section>
-
-    <section>
       <h2>Connect</h2>
       <p class="contact-line">Email: <a href="mailto:raghu.s@utexas.edu">raghu.s@utexas.edu</a></p>
       <p class="contact-line">
@@ -86,7 +85,7 @@ permalink: /about/
         <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Medium</a>
         <a href="/resume.html" target="_blank" rel="noopener noreferrer">CV</a>
       </div>
-      <span class="footer-note">Open to full-time AI engineering roles starting Summer 2026.</span>
+      <span class="footer-note">Open to full-time AI Engineer, FDE, and Solutions Engineer roles.</span>
     </footer>
   </main>
 </body>
