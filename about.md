@@ -8,7 +8,7 @@ permalink: /about/
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="About Raghuraman - FDE and Solutions Engineer profile.">
+  <meta name="description" content="About Raghu - AI engineer focused on practical agentic systems and product-facing delivery.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap" rel="stylesheet">
@@ -21,9 +21,10 @@ permalink: /about/
       <a class="brand" href="/">Raghu</a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="/">Home</a>
+        <a href="/#projects">Projects</a>
         <a href="/blog">Writing</a>
+        <a href="mailto:raghu.s@utexas.edu">Contact</a>
         <a href="/resume.html">CV</a>
-        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
@@ -31,34 +32,45 @@ permalink: /about/
   <main class="shell">
     <section class="hero">
       <p class="eyebrow">About</p>
-      <h1>I build practical software for real customer workflows.</h1>
+      <h1>I build practical AI systems for real customer workflows.</h1>
       <p class="lead">
-        I am Raghuraman, a master's student at UT Austin graduating in <strong>May 2026</strong>, focused on full-time
-        <strong>Full-Stack Developer</strong> and <strong>Solutions Engineer</strong> roles. My work sits at the intersection
-        of product thinking, implementation speed, and reliable delivery.
+        I'm Raghuraman (Raghu), a master's student at UT Austin graduating in <strong>May 2026</strong>. I enjoy turning
+        open-ended product goals into AI-enabled systems that are measurable, maintainable, and easy for teams to adopt.
       </p>
     </section>
 
     <section>
       <h2>What I bring</h2>
       <p class="contact-line">
-        I enjoy taking ambiguous problems and turning them into clear product flows with measurable impact.
-        Recent projects span AI-assisted content generation, receipt automation, and retrieval-based search experiences.
+        I work comfortably across model behavior, orchestration APIs, and product UX. Recent projects span
+        content-generation agents, document-processing pipelines, and retrieval-based answer systems.
       </p>
       <p class="contact-line">
-        My focus is on building systems that are not only technically strong, but also easy for end users and teams to adopt.
+        My approach is outcome-first: define quality signals early, ship quickly, and harden the parts that matter for reliability.
       </p>
     </section>
 
     <section>
-      <h2>Current Focus</h2>
-      <p class="contact-line">Graduating in May 2026 and actively looking for full-time FDE/Solutions opportunities starting Summer 2026.</p>
+      <h2>How I build</h2>
       <p class="contact-line">
-        Interests: applied AI, workflow automation, APIs/integrations, and product-facing engineering.
+        I favor clear architecture and fast feedback loops: prompt/eval iteration, retrieval grounding, and human-in-the-loop controls where trust matters.
+      </p>
+      <p class="contact-line">
+        Tools and patterns I frequently use: React and FastAPI interfaces, API orchestration, OCR/document pipelines, and agent routing flows.
       </p>
     </section>
 
     <section id="contact">
+      <h2>Current Focus</h2>
+      <p class="contact-line">
+        Graduating in May 2026 and actively looking for full-time AI Engineer and Forward Deployed Engineering opportunities starting Summer 2026.
+      </p>
+      <p class="contact-line">
+        I am especially interested in teams building applied AI products where technical depth and customer outcomes are equally important.
+      </p>
+    </section>
+
+    <section>
       <h2>Connect</h2>
       <p class="contact-line">Email: <a href="mailto:raghu.s@utexas.edu">raghu.s@utexas.edu</a></p>
       <p class="contact-line">
@@ -74,7 +86,7 @@ permalink: /about/
         <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Medium</a>
         <a href="/resume.html" target="_blank" rel="noopener noreferrer">CV</a>
       </div>
-      <span class="footer-note">Open to full-time roles starting Summer 2026.</span>
+      <span class="footer-note">Open to full-time AI engineering roles starting Summer 2026.</span>
     </footer>
   </main>
 </body>

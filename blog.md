@@ -8,7 +8,7 @@ permalink: /blog
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Raghu's writing page and Medium placeholder.">
+  <meta name="description" content="Raghu's writing on agentic systems, prompt behavior, and applied AI engineering tradeoffs.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap" rel="stylesheet">
@@ -21,8 +21,10 @@ permalink: /blog
       <a class="brand" href="/">Raghu</a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="/">Home</a>
-        <a href="/resume.html">CV</a>
+        <a href="/#projects">Projects</a>
         <a href="mailto:raghu.s@utexas.edu">Contact</a>
+        <a href="/about/">About</a>
+        <a href="/resume.html">CV</a>
       </nav>
     </div>
   </header>
@@ -30,9 +32,9 @@ permalink: /blog
   <main class="shell">
     <section class="hero">
       <p class="eyebrow">Writing</p>
-      <h1>Recent writing on agentic workflows and full-stack builds.</h1>
+      <h1>Technical notes on building practical AI systems.</h1>
       <p class="lead">
-        Notes on practical AI systems, prompt design, and solution engineering tradeoffs from real projects.
+        I document experiments, system design tradeoffs, and implementation lessons from agentic and retrieval-heavy projects.
       </p>
     </section>
 
@@ -41,21 +43,23 @@ permalink: /blog
       <div class="project-list">
         <article class="project-item">
           <h3>Copy-Pasting Your Prompt Twice Can 5x Your Accuracy (And There's a Google Paper About It)</h3>
-          <p>A practical breakdown of why duplicate prompting can improve outputs, plus the research context behind it.</p>
+          <p class="project-meta">Prompting behavior | Evaluation heuristics | Practical experiments</p>
+          <p>A practical breakdown of why duplicate prompting can improve outputs, and how to use this pattern responsibly in production-facing workflows.</p>
           <div class="link-row">
             <a href="https://medium.com/p/b1f90c3699bd?postPublishedType=initial" target="_blank" rel="noopener noreferrer">Open on Medium</a>
           </div>
-          <iframe
-            class="embed-frame"
-            title="Medium article embed"
-            src="https://medium.com/p/b1f90c3699bd?postPublishedType=initial"
-            width="100%"
-            height="800"
-            loading="lazy"
-          ></iframe>
+        </article>
+        <article class="project-item">
+          <h3>More from my archive</h3>
+          <p class="project-meta">Agentic workflows | Product engineering | AI delivery</p>
+          <p>
+            I regularly publish short practical notes focused on implementation decisions, not just model demos.
+          </p>
+          <div class="link-row">
+            <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Browse all posts on Medium</a>
+          </div>
         </article>
       </div>
-      <p class="contact-line">More posts: <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">@RogueTex</a></p>
     </section>
 
     <footer class="footer">
@@ -65,7 +69,7 @@ permalink: /blog
         <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Medium</a>
         <a href="/resume.html" target="_blank" rel="noopener noreferrer">CV</a>
       </div>
-      <span class="footer-note">Writing archive updated with each new Medium post.</span>
+      <span class="footer-note">Writing archive updated as new technical notes are published.</span>
     </footer>
   </main>
 </body>
