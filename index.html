@@ -70,31 +70,75 @@
     </section>
 
     <section id="experience">
-      <h2>Experience Snapshot</h2>
+      <h2>Experience</h2>
       <div class="project-list">
         <article class="project-item">
-          <h3>Sprinklr • Forward Deployed Engineer</h3>
-          <p class="project-meta">Conversational AI | CCaaS TTS | Customer-facing implementation</p>
+          <h3>Sprinklr • Senior Forward Deployed Engineer</h3>
+          <p class="project-meta">Discovery & demos | Conversational AI | CI/CD | Production debugging | Customer delivery</p>
           <p>
-            Shipped and supported AI-driven workflows with product and customer teams, translating open-ended business requirements into scoped implementations and operationally reliable outcomes.
+            Owned customer-facing delivery across discovery calls, demos, implementation, CI/CD, and production debugging for conversational AI deployments. The role sat at the intersection of AI engineering and technical leadership, translating open-ended customer needs into production-ready deployments.
+          </p>
+        </article>
+        <article class="project-item">
+          <h3>NetApp • Machine Learning Intern</h3>
+          <p class="project-meta">Applied ML | Signal analysis | State-space forecasting | Regime segmentation | Product strategy</p>
+          <p>
+            Built applied ML workflows for website-visit signal analysis, product-usage trend prediction, and adoption planning. The work used state-space forecasting and regime segmentation to turn behavioral product data into decision support for product strategy.
+          </p>
+        </article>
+        <article class="project-item">
+          <h3>Zifo RnD Solutions • Associate Consultant</h3>
+          <p class="project-meta">Python | Genomics ETL | Large-scale data workflows | Data engineering</p>
+          <p>
+            Worked on genomics ETL and large-scale data workflows, building the Python and data-engineering foundation behind reliable downstream analytics. The role emphasized operational data quality and production-oriented workflow design.
           </p>
         </article>
       </div>
     </section>
 
     <section id="projects">
-      <h2 style="background: linear-gradient(90deg, #9b1c1c 0%, #6f4e37 58%, #111111 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">My recent project and research based work.</h2>
-      <p class="contact-line" style="color: #5c4033;">Selected systems work across shipped products, optimization, and applied ML.</p>
+      <h2 style="background: linear-gradient(90deg, #9b1c1c 0%, #6f4e37 58%, #111111 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Selected Work</h2>
+      <p class="contact-line" style="color: #5c4033;">AI products and applied ML systems across code repair, personal finance intelligence, geospatial decision support, and document automation.</p>
       <div class="project-list">
         <article class="project-item">
-          <h3 style="color: #8f1d1d;">ChargePilot - EV Charger Expansion Optimizer</h3>
-          <p class="project-meta">Python | ETL pipelines | Ridge regression | Graph message passing | Facility-location optimization | Next.js</p>
+          <h3 style="color: #8f1d1d;">DraftForge Repair Agent</h3>
+          <p class="project-meta">AkashML | FastAPI | Analyze-and-repair workflow | Patch generation | Static web studio</p>
           <p>
-            Graph-optimized EV charger expansion pipeline that ingests Austin mobility and infrastructure data, learns candidate-site scores, and ranks buildout scenarios for a dashboard-ready deployment surface. It combines ETL pipelines, ridge-regression scoring, graph message passing, and greedy facility-location optimization with map-ready GeoJSON outputs.
+            AkashML-themed code repair agent built around an analyze-and-repair workflow that inspects issues, generates patches, and exposes the flow through a FastAPI backend and static web studio. It is framed like a production-style developer tool rather than a one-off hackathon script.
           </p>
           <ul class="impact-list">
-            <li>Implemented a full data-to-model pipeline from public datasets through learned site ranking and scenario generation.</li>
-            <li>Produced `recommendations.geojson`, `clusters.geojson`, and CSV summaries for downstream visualization and planning.</li>
+            <li>Implemented a code-analysis to patch-generation loop designed for iterative repair workflows.</li>
+            <li>Structured the project around backend, UI, and CI-oriented roadmap thinking for production-style delivery.</li>
+          </ul>
+          <div class="link-row">
+            <a href="https://github.com/RogueTex/DraftForge" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <h3 style="color: #6f4e37;">LifeLedger</h3>
+          <p class="project-meta">Data Portability Hackathon 2026 | Multi-source ingestion | Grounded insights | Explainable outputs</p>
+          <p>
+            Personal finance intelligence engine built around multi-source ingestion, grounded insight generation, and explainable outputs. It is designed as a decision-support workflow that keeps recommendations traceable instead of relying on opaque summaries.
+          </p>
+          <ul class="impact-list">
+            <li>Combined multiple portable data sources into a single finance-oriented intelligence workflow.</li>
+            <li>Prioritized grounded and explainable outputs so insights remain inspectable for end users.</li>
+          </ul>
+          <div class="link-row">
+            <a href="https://github.com/RogueTex/LifeLedger" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <h3 style="color: #1a1a1a;">ChargePilot EV Optimizer</h3>
+          <p class="project-meta">Python | ETL pipelines | Graph message passing | Facility-location optimization | Next.js | GeoJSON</p>
+          <p>
+            Geospatial AI decision-support system that ingests real mobility and infrastructure datasets, learns site scores, and ranks EV charger expansion scenarios through a map-based interface. It combines ETL, learned scoring, graph message passing, and facility-location optimization into a deployment-ready recommendation engine.
+          </p>
+          <ul class="impact-list">
+            <li>Implemented an end-to-end pipeline from public urban data through scored recommendations and scenario artifacts.</li>
+            <li>Produced map-ready outputs for interactive decision support instead of stopping at a notebook-only analysis.</li>
           </ul>
           <div class="link-row">
             <a href="https://github.com/RogueTex/ChargePilot-EV-Optimizer" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -102,45 +146,14 @@
         </article>
 
         <article class="project-item">
-          <h3 style="color: #6f4e37;">Tab Graveyard - Chrome Extension</h3>
-          <p class="project-meta">Manifest v3 | Vanilla JS | Chrome local storage | Groq/OpenRouter classification | Local-first UX</p>
+          <h3 style="color: #7a2f2f;">Smart Doc Approver</h3>
+          <p class="project-meta">LangGraph | OCR | LayoutLMv3 | Anomaly detection | Approval routing | Human-in-the-loop</p>
           <p>
-            Local-first Chrome extension that captures closed tabs into a searchable graveyard, with filter, resurrect, and delete flows for large personal tab datasets. Optional LLM classification runs through Groq or OpenRouter without requiring a backend and degrades gracefully when no API key is configured.
+            Agentic receipt automation system that combines OCR, document extraction, anomaly detection, and approval routing for production-style document workflows. It routes uncertain cases through human review and uses feedback loops to improve extraction quality over time.
           </p>
           <ul class="impact-list">
-            <li>Shipped a product-facing Manifest v3 extension with fast local search and filter UX on stored tab data.</li>
-            <li>Integrated optional AI classification while keeping the core experience usable without external services.</li>
-          </ul>
-          <div class="link-row">
-            <a href="https://github.com/RogueTex/GraveyardBookmark" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-item">
-          <h3 style="color: #1a1a1a;">2A1B Solver - Reinforcement Learning for Alphabet 2048</h3>
-          <p class="project-meta">Python | Gymnasium | PyTorch Double DQN | Dueling/prioritized replay | Playwright</p>
-          <p>
-            Reinforcement-learning stack for Alphabet 2048 that pairs a Gymnasium environment with a PyTorch DQN agent, evaluation tooling, and a browser bridge for live play. The system uses a Double DQN training loop with optional dueling and prioritized replay, then deploys policy decisions into the public game UI through Playwright.
-          </p>
-          <ul class="impact-list">
-            <li>Built a full RL codebase with environment, agent, training scripts, and diagnostics instead of a one-off notebook workflow.</li>
-            <li>Closed the model-to-integration loop by automating gameplay in a real browser session for realistic evaluation.</li>
-          </ul>
-          <div class="link-row">
-            <a href="https://github.com/RogueTex/2A1B_Solver" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://roguetex.github.io/2A1BGame/" target="_blank" rel="noopener noreferrer">Game</a>
-          </div>
-        </article>
-
-        <article class="project-item">
-          <h3 style="color: #7a2f2f;">ReceiptOps Agent - Document ML Pipeline</h3>
-          <p class="project-meta">LangGraph | OCR | LayoutLMv3 | Document understanding | Human-in-the-loop approvals</p>
-          <p>
-            LangGraph-powered document ML pipeline for receipt automation that combines OCR, LayoutLMv3-based document understanding, and anomaly-aware validation routing. It extracts structured receipt fields, sends low-confidence cases through human-in-the-loop approvals, and uses feedback signals to improve downstream rules and quality over time.
-          </p>
-          <ul class="impact-list">
-            <li>Unified extraction, validation, and confidence-based routing in one workflow instead of relying on a single-model pass.</li>
-            <li>Captured reviewer feedback to iteratively improve approval thresholds, validation logic, and output reliability.</li>
+            <li>Unified extraction, validation, and confidence-based routing so low-confidence cases do not silently fail.</li>
+            <li>Closed the loop with review feedback to drive repeated model-quality and validation-quality improvements.</li>
           </ul>
           <div class="link-row">
             <a href="https://github.com/RogueTex/StreamingDataforModelTraining" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -154,16 +167,16 @@
     </section>
 
     <section id="writing">
-      <h2>Writing & Technical Notes</h2>
+      <h2>Writing & Notes</h2>
       <div class="writing-box">
         <p class="contact-line">
-          I write about prompt behavior, agentic architecture choices, and practical engineering tradeoffs from shipped experiments.
+          Technical writeups, project breakdowns, and agent/LLM build notes from shipped experiments and applied ML work.
         </p>
         <p class="contact-line">
           Latest: <a href="https://medium.com/p/b1f90c3699bd?postPublishedType=initial" target="_blank" rel="noopener noreferrer">Copy-Pasting Your Prompt Twice Can 5x Your Accuracy (And There's a Google Paper About It)</a>
         </p>
         <p class="contact-line">
-          Medium: <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">@RogueTex</a>
+          More writing: <a href="https://medium.com/@ragoo" target="_blank" rel="noopener noreferrer">@ragoo on Medium</a>
         </p>
       </div>
     </section>
@@ -172,8 +185,9 @@
       <h2>Contact</h2>
       <p class="contact-line">Best way to reach me: <a href="mailto:raghu.s@utexas.edu">raghu.s@utexas.edu</a></p>
       <p class="contact-line">
-        Also on <a href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer">GitHub</a>
-        and <a href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+        Also on <a href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer">GitHub</a>,
+        <a href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer">LinkedIn</a>, and
+        <a href="https://medium.com/@ragoo" target="_blank" rel="noopener noreferrer">Medium</a>.
       </p>
     </section>
 
