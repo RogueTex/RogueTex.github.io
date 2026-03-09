@@ -70,13 +70,13 @@
       <div class="project-list">
         <article class="project-item">
           <h3 style="color: #8f1d1d;">ChargePilot - EV Charger Expansion Optimizer</h3>
-          <p class="project-meta">Python | ETL | Graph learning | Optimization | Next.js | TypeScript | Leaflet</p>
+          <p class="project-meta">Python | ETL pipelines | Ridge regression | Graph message passing | Facility-location optimization | Next.js</p>
           <p>
-            Graph-optimized EV charger expansion system that ingests Austin mobility and infrastructure data, learns candidate-site scores, and ranks buildout scenarios through a dashboard-ready pipeline. It combines ETL, ridge-regression scoring, graph message passing, and greedy facility placement into a product surface rather than a standalone notebook.
+            Graph-optimized EV charger expansion pipeline that ingests Austin mobility and infrastructure data, learns candidate-site scores, and ranks buildout scenarios for a dashboard-ready deployment surface. It combines ETL pipelines, ridge-regression scoring, graph message passing, and greedy facility-location optimization with map-ready GeoJSON outputs.
           </p>
           <ul class="impact-list">
-            <li>Implemented an end-to-end pipeline from raw public datasets to learned site ranking and scenario generation.</li>
-            <li>Exported map-ready GeoJSON and CSV artifacts for downstream visualization and planning workflows.</li>
+            <li>Implemented a full data-to-model pipeline from public datasets through learned site ranking and scenario generation.</li>
+            <li>Produced `recommendations.geojson`, `clusters.geojson`, and CSV summaries for downstream visualization and planning.</li>
           </ul>
           <div class="link-row">
             <a href="https://github.com/RogueTex/ChargePilot-EV-Optimizer" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -85,9 +85,9 @@
 
         <article class="project-item">
           <h3 style="color: #6f4e37;">Tab Graveyard - Chrome Extension</h3>
-          <p class="project-meta">Manifest v3 | Vanilla JS | HTML/CSS | Chrome Storage | Groq/OpenRouter</p>
+          <p class="project-meta">Manifest v3 | Vanilla JS | Chrome local storage | Groq/OpenRouter classification | Local-first UX</p>
           <p>
-            Local-first Chrome extension that captures closed tabs into a searchable graveyard, with filter, resurrect, and delete flows designed for heavy personal tab history. Optional LLM tagging runs through Groq or OpenRouter without requiring a backend and falls back cleanly when no API key is configured.
+            Local-first Chrome extension that captures closed tabs into a searchable graveyard, with filter, resurrect, and delete flows for large personal tab datasets. Optional LLM classification runs through Groq or OpenRouter without requiring a backend and degrades gracefully when no API key is configured.
           </p>
           <ul class="impact-list">
             <li>Shipped a product-facing Manifest v3 extension with fast local search and filter UX on stored tab data.</li>
@@ -100,9 +100,9 @@
 
         <article class="project-item">
           <h3 style="color: #1a1a1a;">2A1B Solver - Reinforcement Learning for Alphabet 2048</h3>
-          <p class="project-meta">Python | Gymnasium | PyTorch Double DQN | Playwright</p>
+          <p class="project-meta">Python | Gymnasium | PyTorch Double DQN | Dueling/prioritized replay | Playwright</p>
           <p>
-            Reinforcement-learning stack for Alphabet 2048 that pairs a Gymnasium environment with a PyTorch DQN agent, evaluation tooling, and a browser bridge for live play. The system moves from training to deployment by using Playwright to run policy decisions against the public game UI.
+            Reinforcement-learning stack for Alphabet 2048 that pairs a Gymnasium environment with a PyTorch DQN agent, evaluation tooling, and a browser bridge for live play. The system uses a Double DQN training loop with optional dueling and prioritized replay, then deploys policy decisions into the public game UI through Playwright.
           </p>
           <ul class="impact-list">
             <li>Built a full RL codebase with environment, agent, training scripts, and diagnostics instead of a one-off notebook workflow.</li>
@@ -111,6 +111,22 @@
           <div class="link-row">
             <a href="https://github.com/RogueTex/2A1B_Solver" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://roguetex.github.io/2A1BGame/" target="_blank" rel="noopener noreferrer">Game</a>
+          </div>
+        </article>
+
+        <article class="project-item">
+          <h3 style="color: #7a2f2f;">ReceiptOps Agent - Document ML Pipeline</h3>
+          <p class="project-meta">LangGraph | OCR | LayoutLMv3 | Document understanding | Human-in-the-loop approvals</p>
+          <p>
+            LangGraph-powered document ML pipeline for receipt automation that combines OCR, LayoutLMv3-based document understanding, and anomaly-aware validation routing. It extracts structured receipt fields, sends low-confidence cases through human-in-the-loop approvals, and uses feedback signals to improve downstream rules and quality over time.
+          </p>
+          <ul class="impact-list">
+            <li>Unified extraction, validation, and confidence-based routing in one workflow instead of relying on a single-model pass.</li>
+            <li>Captured reviewer feedback to iteratively improve approval thresholds, validation logic, and output reliability.</li>
+          </ul>
+          <div class="link-row">
+            <a href="https://github.com/RogueTex/StreamingDataforModelTraining" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://colab.research.google.com/github/RogueTex/StreamingDataforModelTraining/blob/main/NewVerPynbAgent.ipynb" target="_blank" rel="noopener noreferrer">Colab</a>
           </div>
         </article>
       </div>
