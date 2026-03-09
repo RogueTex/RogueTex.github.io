@@ -143,13 +143,18 @@ h1 {
   font-size: 1rem;
   color: #1f2937;
   max-width: 62ch;
-  margin: 0.25rem 0 0;
+  margin: 0.35rem 0 0;
 }
 
 .meta-row {
-  margin-top: 0.85rem;
+  margin-top: 0.6rem;
   color: var(--muted);
   font-size: 0.92rem;
+  max-width: 64ch;
+}
+
+.meta-row + .meta-row {
+  margin-top: 0.45rem;
 }
 
 .cta-row {

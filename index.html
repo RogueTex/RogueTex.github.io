@@ -19,7 +19,6 @@
         <a href="#projects">Projects</a>
         <a href="#writing">Writing</a>
         <a href="#contact">Contact</a>
-        <a href="/about/">About</a>
         <a href="/resume.html">CV</a>
       </nav>
     </div>
@@ -36,15 +35,14 @@
             Graduating in <strong>May 2026</strong> from UT Austin. Previously a Forward Deployed Engineer at Sprinklr, where I worked on conversational AI and CCaaS TTS workflows as their first university hire.
           </p>
           <p class="meta-row">
-            Focus: product-facing AI systems and agentic workflows. Coursework: Optimization and Generative Models. Open to full-time AI Engineer, Forward Deployed Engineer, and Solutions Engineer roles.
+            Product-facing AI systems and agentic workflows. Coursework: Optimization and Generative Models. Open to full-time AI Engineer, Forward Deployed Engineer, and Solutions Engineer roles.
           </p>
           <p class="meta-row">
-            Community: campus ambassador for Perplexity and OpenAI Codex, and a founding member of Sprinklr's
+            Campus ambassador for Perplexity and OpenAI Codex, and a founding member of Sprinklr's
             <a href="https://www.linkedin.com/feed/update/urn:li:activity:7201933081102974977/" target="_blank" rel="noopener noreferrer">We Care Pan-Asian Network</a>.
           </p>
           <div class="cta-row">
             <a class="text-link text-link-primary" href="/resume.html" target="_blank" rel="noopener noreferrer">View CV</a>
-            <a class="text-link" href="https://drive.google.com/uc?export=download&id=1lZdRKwGW2P2to6T4s_TB8cQtoW_EiE8Z" target="_blank" rel="noopener noreferrer">Download CV</a>
             <a class="text-link" href="mailto:raghu.s@utexas.edu">Email</a>
             <a class="text-link" href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a class="text-link" href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -67,54 +65,52 @@
     </section>
 
     <section id="projects">
-      <h2>Selected AI Projects</h2>
-      <p class="contact-line">Recent builds across orchestration, retrieval, and applied ML workflows.</p>
+      <h2>Featured Projects (ML/AI + FDE)</h2>
+      <p class="contact-line">End-to-end systems across optimization, product delivery, and applied ML.</p>
       <div class="project-list">
         <article class="project-item">
-          <h3>Brief-to-Campaign Agent</h3>
-          <p class="project-meta">React | Node/Express | Prompt orchestration</p>
+          <h3>ChargePilot - EV Charger Expansion Optimizer</h3>
+          <p class="project-meta">Python | ETL | Graph learning | Optimization | Next.js | TypeScript | Leaflet</p>
           <p>
-            Prompt-orchestration agent built on React and Node/Express that converts campaign briefs into channel-ready copy with controllable tone and length, reducing manual iteration and making reviews easier for non-technical stakeholders.
+            Graph-optimized EV charger expansion system that ingests Austin mobility and infrastructure data, learns candidate-site scores, and ranks buildout scenarios through a dashboard-ready pipeline. It combines ETL, ridge-regression scoring, graph message passing, and greedy facility placement into a product surface rather than a standalone notebook.
           </p>
           <ul class="impact-list">
-            <li>Structured generation controls for tone, length, and channel format.</li>
-            <li>Separated orchestration APIs from UI for faster iteration.</li>
+            <li>Implemented an end-to-end pipeline from raw public datasets to learned site ranking and scenario generation.</li>
+            <li>Exported map-ready GeoJSON and CSV artifacts for downstream visualization and planning workflows.</li>
           </ul>
           <div class="link-row">
-            <a href="https://roguetex.github.io/ContentGenerator_RooHackathon/" target="_blank" rel="noopener noreferrer">Live demo</a>
-            <a href="https://github.com/RogueTex/ContentGenerator_RooHackathon" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/RogueTex/ChargePilot-EV-Optimizer" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </article>
 
         <article class="project-item">
-          <h3>ReceiptOps Agent</h3>
-          <p class="project-meta">OCR | LayoutLMv3 | LangGraph | Human-in-the-loop approvals</p>
+          <h3>Tab Graveyard - Chrome Extension</h3>
+          <p class="project-meta">Manifest v3 | Vanilla JS | HTML/CSS | Chrome Storage | Groq/OpenRouter</p>
           <p>
-            LangGraph-powered receipt automation agent that combines OCR, LayoutLMv3 document understanding, and anomaly detection for validation routing, then closes the loop with approvals feedback for continuous model and rule quality improvements.
+            Local-first Chrome extension that captures closed tabs into a searchable graveyard, with filter, resurrect, and delete flows designed for heavy personal tab history. Optional LLM tagging runs through Groq or OpenRouter without requiring a backend and falls back cleanly when no API key is configured.
           </p>
           <ul class="impact-list">
-            <li>Combined document extraction and anomaly checks in one flow.</li>
-            <li>Added feedback loop for continuous performance improvement.</li>
+            <li>Shipped a product-facing Manifest v3 extension with fast local search and filter UX on stored tab data.</li>
+            <li>Integrated optional AI classification while keeping the core experience usable without external services.</li>
           </ul>
           <div class="link-row">
-            <a href="https://github.com/RogueTex/StreamingDataforModelTraining" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://colab.research.google.com/github/RogueTex/StreamingDataforModelTraining/blob/main/NewVerPynbAgent.ipynb" target="_blank" rel="noopener noreferrer">Open in Colab</a>
+            <a href="https://github.com/RogueTex/GraveyardBookmark" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </article>
 
         <article class="project-item">
-          <h3>Insight Sprint</h3>
-          <p class="project-meta">React | FastAPI | Retrieval + summarization stack</p>
+          <h3>2A1B Solver - Reinforcement Learning for Alphabet 2048</h3>
+          <p class="project-meta">Python | Gymnasium | PyTorch Double DQN | Playwright</p>
           <p>
-            Retrieval-powered answer engine on React and FastAPI that pairs document search with summarization, emphasizing response quality, latency-awareness, and transparent linking between generated outputs and evidence.
+            Reinforcement-learning stack for Alphabet 2048 that pairs a Gymnasium environment with a PyTorch DQN agent, evaluation tooling, and a browser bridge for live play. The system moves from training to deployment by using Playwright to run policy decisions against the public game UI.
           </p>
           <ul class="impact-list">
-            <li>Focused on citation-grounded answers over generic generation.</li>
-            <li>Balanced retrieval quality with response speed constraints.</li>
+            <li>Built a full RL codebase with environment, agent, training scripts, and diagnostics instead of a one-off notebook workflow.</li>
+            <li>Closed the model-to-integration loop by automating gameplay in a real browser session for realistic evaluation.</li>
           </ul>
           <div class="link-row">
-            <a href="https://roguetex.github.io/InsightsLetter/" target="_blank" rel="noopener noreferrer">Live demo</a>
-            <a href="https://github.com/RogueTex/AdvancedInsights" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/RogueTex/2A1B_Solver" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://roguetex.github.io/2A1BGame/" target="_blank" rel="noopener noreferrer">Game</a>
           </div>
         </article>
       </div>
