@@ -177,12 +177,24 @@ p {
 
 .name-core {
   max-width: 54rem;
+  display: grid;
+  gap: 0.7rem;
+  justify-items: center;
   color: rgba(246, 241, 232, 0.94);
-  font-size: clamp(1.25rem, 2.4vw, 2rem);
+  font-size: clamp(1.55rem, 3vw, 2.7rem);
   font-weight: 500;
   letter-spacing: -0.045em;
   line-height: 1.08;
   text-wrap: balance;
+}
+
+.name-core span:last-child {
+  color: rgba(246, 241, 232, 0.68);
+  font-family: "Geist Mono", monospace;
+  font-size: clamp(0.76rem, 1.15vw, 0.95rem);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .advance-cue {
@@ -689,7 +701,7 @@ p {
 
   .name-core {
     max-width: 28rem;
-    font-size: clamp(1.2rem, 6vw, 1.8rem);
+    font-size: clamp(1.45rem, 7vw, 2.2rem);
   }
 
   .profile-shell {
@@ -726,7 +738,7 @@ p {
   }
 
   .name-core {
-    font-size: clamp(1.1rem, 4vw, 1.7rem);
+    font-size: clamp(1.25rem, 4vw, 1.9rem);
   }
 
   .advance-cue {
