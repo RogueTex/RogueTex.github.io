@@ -56,7 +56,7 @@ permalink: /blog
             I regularly publish short practical notes focused on implementation decisions, not just model demos.
           </p>
           <div class="link-row">
-            <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Browse all posts on Medium</a>
+            <a href="https://medium.com/@ragoo" target="_blank" rel="noopener noreferrer">Browse all posts on Medium</a>
           </div>
         </article>
       </div>
@@ -66,7 +66,7 @@ permalink: /blog
       <div class="footer-links">
         <a href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Medium</a>
+        <a href="https://medium.com/@ragoo" target="_blank" rel="noopener noreferrer">Medium</a>
         <a href="/resume.html" target="_blank" rel="noopener noreferrer">CV</a>
       </div>
       <span class="footer-note">Writing archive updated as new technical notes are published.</span>

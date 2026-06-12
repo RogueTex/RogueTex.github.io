@@ -82,7 +82,7 @@ permalink: /about/
       <div class="footer-links">
         <a href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Medium</a>
+        <a href="https://medium.com/@ragoo" target="_blank" rel="noopener noreferrer">Medium</a>
         <a href="/resume.html" target="_blank" rel="noopener noreferrer">CV</a>
       </div>
       <span class="footer-note">Open to full-time AI Engineer, FDE, and Solutions Engineer roles.</span>
