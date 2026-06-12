@@ -1,20 +1,85 @@
 ---
-layout: page
-title: "Projects"
+layout: none
+title: "Recent Hack Wins"
 permalink: /projects/
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recent hack wins, projects, and writing by Raghu Subramanian.">
+  <meta name="theme-color" content="#050505">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
+  <title>Recent Hack Wins | Raghu Subramanian</title>
+</head>
+<body class="detail-page">
+  <main class="detail-shell" aria-label="Recent hack wins, projects, and writing">
+    <a class="back-link" href="/">Back home</a>
 
-## My Projects
+    <section class="detail-hero">
+      <p class="section-kicker">Selected work</p>
+      <h1>Recent hack wins.</h1>
+    </section>
 
-Here are some of my recent projects:
+    <section class="project-stack" aria-label="Projects">
+      <article class="project-card">
+        <div class="project-heading">
+          <h2>DraftForge</h2>
+          <a class="icon-button" href="https://github.com/RogueTex/DraftForge" target="_blank" rel="noopener noreferrer" aria-label="Open DraftForge on GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.31 6.84 9.66.5.09.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.15-4.56-5.1 0-1.13.39-2.06 1.03-2.79-.1-.26-.45-1.32.1-2.75 0 0 .84-.28 2.75 1.07A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.35 2.75-1.07 2.75-1.07.55 1.43.2 2.49.1 2.75.64.73 1.03 1.66 1.03 2.79 0 3.96-2.34 4.84-4.57 5.09.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.49A10.18 10.18 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"/></svg>
+          </a>
+        </div>
+        <p>Analyze-and-repair workflow that generates patches through a FastAPI-backed web studio.</p>
+      </article>
 
-<ul>
-  {% for project in site.projects %}
-    <li>
-      <h3>{{ project.title }}</h3>
-      <p><strong>Date:</strong> {{ project.date | date: "%B %d, %Y" }}</p>
-      <p><strong>Brief:</strong> {{ project.description }}</p>
-    </li>
-  {% endfor %}
-</ul>
+      <article class="project-card">
+        <div class="project-heading">
+          <h2>LifeLedger</h2>
+          <a class="icon-button" href="https://github.com/RogueTex/LifeLedger" target="_blank" rel="noopener noreferrer" aria-label="Open LifeLedger on GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.31 6.84 9.66.5.09.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.15-4.56-5.1 0-1.13.39-2.06 1.03-2.79-.1-.26-.45-1.32.1-2.75 0 0 .84-.28 2.75 1.07A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.35 2.75-1.07 2.75-1.07.55 1.43.2 2.49.1 2.75.64.73 1.03 1.66 1.03 2.79 0 3.96-2.34 4.84-4.57 5.09.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.49A10.18 10.18 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"/></svg>
+          </a>
+          <p class="win-note">Data Portability Hack '26 winner</p>
+        </div>
+        <p>Full-stack finance engine with multi-source API ingestion, RAG insights, and BYOK LLM routing.</p>
+      </article>
 
+      <article class="project-card">
+        <div class="project-heading">
+          <h2>ChargePilot</h2>
+          <a class="icon-button" href="https://github.com/RogueTex/ChargePilot-EV-Optimizer" target="_blank" rel="noopener noreferrer" aria-label="Open ChargePilot on GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.31 6.84 9.66.5.09.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.15-4.56-5.1 0-1.13.39-2.06 1.03-2.79-.1-.26-.45-1.32.1-2.75 0 0 .84-.28 2.75 1.07A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.35 2.75-1.07 2.75-1.07.55 1.43.2 2.49.1 2.75.64.73 1.03 1.66 1.03 2.79 0 3.96-2.34 4.84-4.57 5.09.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.49A10.18 10.18 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"/></svg>
+          </a>
+          <p class="win-note">SF Ventures Hack 2026 winner</p>
+        </div>
+        <p>Public-data ETL with graph scoring and SQL analytics for ranked EV expansion outputs.</p>
+      </article>
+
+      <article class="project-card">
+        <div class="project-heading">
+          <h2>Smart Doc</h2>
+          <a class="icon-button" href="https://github.com/RogueTex/StreamingDataforModelTraining" target="_blank" rel="noopener noreferrer" aria-label="Open Smart Doc on GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.31 6.84 9.66.5.09.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.15-4.56-5.1 0-1.13.39-2.06 1.03-2.79-.1-.26-.45-1.32.1-2.75 0 0 .84-.28 2.75 1.07A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.35 2.75-1.07 2.75-1.07.55 1.43.2 2.49.1 2.75.64.73 1.03 1.66 1.03 2.79 0 3.96-2.34 4.84-4.57 5.09.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.49A10.18 10.18 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"/></svg>
+          </a>
+          <p class="win-note">Texas TreeHacks winner</p>
+        </div>
+        <p>OCR plus ML classification and semantic anomaly detection for receipt approvals.</p>
+      </article>
+    </section>
+
+    <section class="writing-card" aria-label="Writing">
+      <p class="section-kicker">Writing</p>
+      <h2>Medium notes.</h2>
+      <p>I write practical notes on prompt behavior, agentic workflows, and engineering tradeoffs, including <a href="https://medium.com/p/b1f90c3699bd?postPublishedType=initial" target="_blank" rel="noopener noreferrer">my latest prompt accuracy note</a>.</p>
+      <div class="link-row icon-link-row">
+        <a class="icon-button" href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer" aria-label="Open Medium archive">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.37 7.2a1.18 1.18 0 0 0-.39-1L2.23 4.1v-.31h6.01l4.64 10.18 4.08-10.18h5.72v.31l-1.5 1.44a.44.44 0 0 0-.17.42v10.59a.44.44 0 0 0 .17.42l1.46 1.44v.31h-7.34v-.31l1.51-1.48c.15-.15.15-.19.15-.42V7.96l-4.2 10.73h-.56L7.3 7.96v7.19a1 1 0 0 0 .28.83l1.97 2.4v.31H3.97v-.31l1.97-2.4a.96.96 0 0 0 .25-.83V7.2H4.37Z"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

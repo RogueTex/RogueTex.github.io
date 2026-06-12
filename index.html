@@ -3,202 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Raghu - Personal portfolio site.">
+  <meta name="description" content="Raghu Subramanian - founding FDE at Synthio Labs and UT Austin IROM graduate.">
+  <meta name="theme-color" content="#050505">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600;6..72,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/site.css">
-  <title>Raghu - Personal portfolio site</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+  <title>Raghu Subramanian</title>
 </head>
-<body>
-  <header class="top-nav">
-    <div class="shell nav-inner">
-      <a class="brand" href="/">Raghu</a>
-      <nav class="nav-links" aria-label="Main navigation">
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#writing">Writing</a>
-        <a href="#contact">Contact</a>
-        <a href="/resume.html">CV</a>
-      </nav>
-    </div>
-  </header>
+<body class="landing-page">
+  <main class="snap-shell" aria-label="Raghu Subramanian portfolio">
+    <section class="snap-panel intro-panel" id="intro" aria-label="Landing">
+      <button class="center-stage" type="button" aria-label="Enter portfolio">
+        <span class="stage-glow" aria-hidden="true"></span>
+        <span class="name-lockup">
+          <span class="name-core">Raghu here, all things Deployed Engineering, Agent Harnesses and Vision Transformers</span>
+        </span>
+      </button>
 
-  <main class="shell">
-    <section class="hero" id="home">
-      <p class="eyebrow">AI Engineering • Forward Deployed Engineering • Solutions Engineering</p>
-      <div class="hero-grid">
-        <img class="avatar" src="/assets/Raghu_ProfilePicture.jpeg" alt="Raghuraman profile photo">
-        <div>
-          <h1>Raghuraman (Raghu) • UT Austin MS, Class of 2026</h1>
-          <p class="lead">
-            Graduating in <strong>May 2026</strong> from UT Austin. Previously a Forward Deployed Engineer at Sprinklr, where I worked on conversational AI and CCaaS TTS workflows as their first university hire.
-          </p>
-          <p class="meta-row">
-            Product-facing AI systems and agentic workflows. Coursework: Optimization and Generative Models. Open to full-time AI Engineer, Forward Deployed Engineer, and Solutions Engineer roles.
-          </p>
-          <p class="meta-row">
-            Campus ambassador for Perplexity and OpenAI Codex, and a founding member of Sprinklr's
-            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7201933081102974977/" target="_blank" rel="noopener noreferrer">We Care Pan-Asian Network</a>.
-          </p>
-          <div class="cta-row">
-            <a class="icon-link icon-link-cv" href="/resume.html" target="_blank" rel="noopener noreferrer" aria-label="View CV" title="View CV">CV</a>
-            <a class="icon-link" href="mailto:raghu.s@utexas.edu" aria-label="Email" title="Email">
-              <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-link-stroke">
-                <path d="M4 6h16v12H4z"></path>
-                <path d="m4 7 8 6 8-6"></path>
-              </svg>
-            </a>
-            <a class="icon-link" href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
-              <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-link-fill">
-                <path d="M6.94 8.5a1.44 1.44 0 1 1 0-2.88 1.44 1.44 0 0 1 0 2.88ZM5.75 9.75h2.38v8.5H5.75v-8.5Zm4.25 0h2.28v1.16h.03c.32-.6 1.1-1.23 2.26-1.23 2.42 0 2.87 1.59 2.87 3.65v4.92h-2.38v-4.36c0-1.04-.02-2.38-1.45-2.38-1.45 0-1.68 1.13-1.68 2.3v4.44H10V9.75Z"></path>
-              </svg>
-            </a>
-            <a class="icon-link" href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
-              <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-link-fill">
-                <path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.31 6.84 9.66.5.09.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.15-4.56-5.1 0-1.13.39-2.06 1.03-2.79-.1-.26-.45-1.32.1-2.75 0 0 .84-.28 2.75 1.07A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.35 2.75-1.07 2.75-1.07.55 1.43.2 2.49.1 2.75.64.73 1.03 1.66 1.03 2.79 0 3.96-2.34 4.84-4.57 5.09.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.49A10.18 10.18 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"></path>
-              </svg>
-            </a>
-            <a class="icon-link" href="https://medium.com/@ragoo" target="_blank" rel="noopener noreferrer" aria-label="Medium" title="Medium">
-              <svg viewBox="0 0 24 24" aria-hidden="true" class="icon-link-fill">
-                <path d="M5.2 7.1a.9.9 0 0 0-.27-.75L3 4.1V3.8h6.07l4.7 10.3L17.9 3.8H23v.3l-1.64 1.57a.48.48 0 0 0-.18.46v11.58a.48.48 0 0 0 .18.46L23 19.73V20h-8.22v-.27l1.7-1.65c.17-.17.17-.22.17-.46V8.26l-4.72 11.71h-.64L5.79 8.26v7.88c-.05.31.05.63.27.85l2.22 2.71V20H2v-.3l2.22-2.71c.22-.22.31-.54.24-.85V7.1h.74Z"></path>
-              </svg>
-            </a>
+      <a class="advance-cue" href="#profile" aria-label="View profile">
+        <span>Click anywhere / scroll</span>
+      </a>
+    </section>
+
+    <section class="snap-panel profile-panel" id="profile" aria-label="Profile summary">
+      <div class="profile-shell">
+        <h1>Raghu Subramanian</h1>
+        <div class="about-stack">
+          <div class="about-row about-row-primary">
+            <span class="logo-badge logo-synthio" aria-label="Synthio Labs">
+              <img src="https://www.google.com/s2/favicons?domain=synthiolabs.com&sz=64" alt="">
+              <span>Synthio</span>
+            </span>
+            <p>Founding FDE at Synthio Labs <span>(YC X25)</span></p>
+          </div>
+
+          <div class="about-row">
+            <span class="logo-badge logo-ut" aria-label="UT Austin Research">
+              <img src="https://www.google.com/s2/favicons?domain=utexas.edu&sz=64" alt="">
+              <span>UT</span>
+            </span>
+            <p>Prev. at UT Austin Research</p>
+          </div>
+
+          <div class="about-row logo-only-row" aria-label="Previous experience">
+            <span class="row-label">Previously</span>
+            <span class="logo-badge logo-only logo-sprinklr" aria-label="Sprinklr">
+              <img src="https://www.google.com/s2/favicons?domain=sprinklr.com&sz=64" alt="">
+            </span>
+            <span class="row-label">Ex-</span>
+            <span class="logo-badge logo-only logo-bain" aria-label="Bain">
+              <img src="https://www.google.com/s2/favicons?domain=bain.com&sz=64" alt="">
+            </span>
+          </div>
+
+          <div class="about-row logo-only-row" aria-label="DevRel ambassador">
+            <span class="row-label">DevRel ambassador</span>
+            <span class="logo-badge logo-only logo-perplexity" aria-label="Perplexity">
+              <img src="https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64" alt="">
+            </span>
+            <span class="logo-badge logo-only logo-codex" aria-label="OpenAI Codex">
+              <img src="https://www.google.com/s2/favicons?domain=openai.com&sz=64" alt="">
+            </span>
           </div>
         </div>
+
+        <nav class="link-row primary-links" aria-label="Featured links">
+          <a href="/projects/">Recent hack wins</a>
+        </nav>
+
+        <nav class="social-row" aria-label="Social and contact links">
+          <a class="social-icon" href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.37 7.2a1.18 1.18 0 0 0-.39-1L2.23 4.1v-.31h6.01l4.64 10.18 4.08-10.18h5.72v.31l-1.5 1.44a.44.44 0 0 0-.17.42v10.59a.44.44 0 0 0 .17.42l1.46 1.44v.31h-7.34v-.31l1.51-1.48c.15-.15.15-.19.15-.42V7.96l-4.2 10.73h-.56L7.3 7.96v7.19a1 1 0 0 0 .28.83l1.97 2.4v.31H3.97v-.31l1.97-2.4a.96.96 0 0 0 .25-.83V7.2H4.37Z"/></svg>
+          </a>
+          <a class="social-icon" href="https://x.com/ragzoi" target="_blank" rel="noopener noreferrer" aria-label="Twitter/X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.9 10.47 21.35 2h-1.77l-6.47 7.35L7.95 2H2l7.81 11.12L2 22h1.77l6.82-7.76L16.05 22H22l-8.1-11.53Zm-2.41 2.74-.79-1.1L4.4 3.31h2.7l5.08 7.1.79 1.1 6.61 9.24h-2.7l-5.39-7.54Z"/></svg>
+          </a>
+          <a class="social-icon" href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 8.5a1.44 1.44 0 1 1 0-2.88 1.44 1.44 0 0 1 0 2.88ZM5.75 9.75h2.38v8.5H5.75v-8.5Zm4.25 0h2.28v1.16h.03c.32-.6 1.1-1.23 2.26-1.23 2.42 0 2.87 1.59 2.87 3.65v4.92h-2.38v-4.36c0-1.04-.02-2.38-1.45-2.38-1.45 0-1.68 1.13-1.68 2.3v4.44H10V9.75Z"/></svg>
+          </a>
+          <a class="social-icon" href="mailto:raghu.s@utexas.edu" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.75 5.75h16.5v12.5H3.75V5.75Zm1.5 2.28v8.72h13.5V8.03l-6.75 5.1-6.75-5.1Zm.84-.78L12 11.72l5.91-4.47H6.09Z"/></svg>
+          </a>
+        </nav>
       </div>
     </section>
-
-    <section id="experience">
-      <h2>Experience</h2>
-      <div class="project-list">
-        <article class="project-item">
-          <h3>NetApp • Machine Learning Intern</h3>
-          <p class="project-meta">Applied ML | Forecasting | Regime segmentation | Product analytics</p>
-          <p>
-            Working on website-visit signal analysis and product-usage trend prediction for adoption planning. The work centers on state-space forecasting, regime segmentation, and building decision-support outputs that product teams can actually use.
-          </p>
-        </article>
-        <article class="project-item">
-          <h3>Sprinklr • Senior Forward Deployed Engineer</h3>
-          <p class="project-meta">Conversational AI | Customer delivery | CI/CD | Production debugging | Demos</p>
-          <p>
-            Led discovery, demos, implementation, and production debugging for customer-facing conversational AI deployments. Delivered end-to-end technical work across rollout, issue triage, and handoff, with a mix of product context and direct customer ownership.
-          </p>
-        </article>
-        <article class="project-item">
-          <h3>Zifo RnD Solutions • Associate Consultant</h3>
-          <p class="project-meta">Python | Genomics ETL | Data pipelines | Large-scale workflows</p>
-          <p>
-            Built Python-based genomics ETL and large-scale data workflows for downstream analytics. The work was heavy on data pipeline reliability, workflow design, and getting structured datasets into usable shape for later analysis.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects">
-      <h2 style="background: linear-gradient(90deg, #9b1c1c 0%, #6f4e37 58%, #111111 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">My recent Hackathon wins and Technical Submissions</h2>
-      <div class="project-list">
-        <article class="project-item">
-          <h3 style="color: #8f1d1d;">DraftForge Repair Agent</h3>
-          <p class="project-meta">AkashML | FastAPI | Analyze-and-repair workflow | Patch generation | Static web studio</p>
-          <p>
-            AkashML-themed code repair agent built around an analyze-and-repair workflow that inspects issues, generates patches, and exposes the flow through a FastAPI backend and static web studio. It is framed like a production-style developer tool rather than a one-off hackathon script.
-          </p>
-          <ul class="impact-list">
-            <li>Implemented a code-analysis to patch-generation loop designed for iterative repair workflows.</li>
-            <li>Structured the project around backend, UI, and CI-oriented roadmap thinking for production-style delivery.</li>
-          </ul>
-          <div class="link-row">
-            <a href="https://github.com/RogueTex/DraftForge" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-item">
-          <h3 style="color: #6f4e37;">LifeLedger</h3>
-          <p class="project-meta">Data Portability Hackathon 2026 | Multi-source ingestion | Grounded insights | Explainable outputs</p>
-          <p>
-            Personal finance intelligence engine built around multi-source ingestion, grounded insight generation, and explainable outputs. It is designed as a decision-support workflow that keeps recommendations traceable instead of relying on opaque summaries.
-          </p>
-          <ul class="impact-list">
-            <li>Combined multiple portable data sources into a single finance-oriented intelligence workflow.</li>
-            <li>Prioritized grounded and explainable outputs so insights remain inspectable for end users.</li>
-          </ul>
-          <div class="link-row">
-            <a href="https://github.com/RogueTex/LifeLedger" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-item">
-          <h3 style="color: #1a1a1a;">ChargePilot EV Optimizer</h3>
-          <p class="project-meta">Python | ETL pipelines | Graph message passing | Facility-location optimization | Next.js | GeoJSON</p>
-          <p>
-            Geospatial AI decision-support system that ingests real mobility and infrastructure datasets, learns site scores, and ranks EV charger expansion scenarios through a map-based interface. It combines ETL, learned scoring, graph message passing, and facility-location optimization into a deployment-ready recommendation engine.
-          </p>
-          <ul class="impact-list">
-            <li>Implemented an end-to-end pipeline from public urban data through scored recommendations and scenario artifacts.</li>
-            <li>Produced map-ready outputs for interactive decision support instead of stopping at a notebook-only analysis.</li>
-          </ul>
-          <div class="link-row">
-            <a href="https://github.com/RogueTex/ChargePilot-EV-Optimizer" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </div>
-        </article>
-
-        <article class="project-item">
-          <h3 style="color: #7a2f2f;">Smart Doc Approver</h3>
-          <p class="project-meta">LangGraph | OCR | LayoutLMv3 | Anomaly detection | Approval routing | Human-in-the-loop</p>
-          <p>
-            Agentic receipt automation system that combines OCR, document extraction, anomaly detection, and approval routing for production-style document workflows. It routes uncertain cases through human review and uses feedback loops to improve extraction quality over time.
-          </p>
-          <ul class="impact-list">
-            <li>Unified extraction, validation, and confidence-based routing so low-confidence cases do not silently fail.</li>
-            <li>Closed the loop with review feedback to drive repeated model-quality and validation-quality improvements.</li>
-          </ul>
-          <div class="link-row">
-            <a href="https://github.com/RogueTex/StreamingDataforModelTraining" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://colab.research.google.com/github/RogueTex/StreamingDataforModelTraining/blob/main/NewVerPynbAgent.ipynb" target="_blank" rel="noopener noreferrer">Colab</a>
-          </div>
-        </article>
-      </div>
-      <p class="contact-line" style="margin-top: 1.25rem;">
-        <a href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 0.6rem 1rem; border: 1px solid #6f4e37; border-radius: 999px; color: #5c4033; text-decoration: none;">See all projects on GitHub</a>
-      </p>
-    </section>
-
-    <section id="writing">
-      <h2>Writing & Notes</h2>
-      <div class="writing-box">
-        <p class="contact-line">
-          Technical writeups, project breakdowns, and agent/LLM build notes from shipped experiments and applied ML work.
-        </p>
-        <p class="contact-line">
-          Latest: <a href="https://medium.com/p/b1f90c3699bd?postPublishedType=initial" target="_blank" rel="noopener noreferrer">Copy-Pasting Your Prompt Twice Can 5x Your Accuracy (And There's a Google Paper About It)</a>
-        </p>
-        <p class="contact-line">
-          More writing: <a href="https://medium.com/@ragoo" target="_blank" rel="noopener noreferrer">@ragoo on Medium</a>
-        </p>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p class="contact-line">Best way to reach me: <a href="mailto:raghu.s@utexas.edu">raghu.s@utexas.edu</a></p>
-      <p class="contact-line">
-        Also on <a href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer">GitHub</a>,
-        <a href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer">LinkedIn</a>, and
-        <a href="https://medium.com/@ragoo" target="_blank" rel="noopener noreferrer">Medium</a>.
-      </p>
-    </section>
-
-    <footer class="footer">
-      <div class="footer-links">
-        <a href="https://github.com/RogueTex" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://www.linkedin.com/in/raghuraman1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://medium.com/@RogueTex" target="_blank" rel="noopener noreferrer">Medium</a>
-        <a href="/resume.html" target="_blank" rel="noopener noreferrer">CV</a>
-      </div>
-      <span class="footer-note">Raghuraman • Personal portfolio site • Last updated March 2026</span>
-    </footer>
   </main>
+
+  <script>
+    const intro = document.querySelector("#intro");
+    const profile = document.querySelector("#profile");
+
+    intro.addEventListener("click", (event) => {
+      if (event.target.closest("a")) return;
+      profile.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  </script>
 </body>
 </html>
