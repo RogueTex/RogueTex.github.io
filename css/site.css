@@ -405,6 +405,41 @@ p {
   fill: currentColor;
 }
 
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  justify-content: flex-end;
+  margin-top: -0.2rem;
+}
+
+.cv-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.2rem;
+  border: 1px solid rgba(246, 241, 232, 0.18);
+  border-radius: 999px;
+  padding: 0 0.82rem;
+  color: rgba(246, 241, 232, 0.74);
+  background: rgba(255, 255, 255, 0.035);
+  font-family: "Geist Mono", monospace;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease, color 180ms ease;
+}
+
+.cv-actions a:hover,
+.cv-actions a:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(246, 241, 232, 0.5);
+  color: rgba(246, 241, 232, 0.94);
+  background: rgba(255, 255, 255, 0.09);
+}
+
 .primary-links a {
   min-width: min(100%, 18rem);
   color: #050505;
@@ -770,6 +805,10 @@ p {
   .profile-shell h1 {
     font-size: clamp(2.35rem, 11vw, 4.2rem);
     white-space: normal;
+  }
+
+  .cv-actions {
+    justify-content: flex-start;
   }
 
   .project-card {
